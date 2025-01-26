@@ -1,0 +1,1 @@
+-rw-r--r-- 1 manoj-n manoj-n 0 Jan 24 21:08 file.txt
