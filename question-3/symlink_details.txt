@@ -1,2 +1,0 @@
-symbolic link details 
-lrwxrwxrwx 1 manoj-n manoj-n 14 Jan 26 09:24 dir1/link_to_file -> dir1/dir2/file
