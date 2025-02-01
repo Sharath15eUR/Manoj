@@ -1,0 +1,2 @@
+Available gateways:
+192.168.191.250
