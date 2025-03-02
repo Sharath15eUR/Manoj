@@ -1,0 +1,4 @@
+#!/bin/bash
+echo -e "DEBUG: Starting the application initialization.\nERROR: Unable to connect to the database.\nINFO: User 'admin' logged in successfully.\nDEBUG: Fetching configuration settings from the server.\nERROR: DEBUG - Configuration settings could not be applied.\nINFO: Scheduled job 'backup' completed successfully.\nDEBUG: Connection to server timed out. Retrying...\nERROR: Failed to fetch data from API endpoint '/users'.\nINFO: Maintenance mode activated.\nERROR: DEBUG - Query execution failed due to a syntax error.\nDEBUG: Reloading application modules.\nERROR: Missing required parameter in the request.\nINFO: Shutting down the system gracefully.\nDEBUG: Closing unused network connections.\nERROR: DEBUG - Unexpected server response received." > log.txt
+
+grep "ERROR" log.txt | grep -v "DEBUG" > filtered_log.txt
