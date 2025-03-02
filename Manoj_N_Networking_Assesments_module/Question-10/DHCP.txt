@@ -1,0 +1,34 @@
+Question-10:
+
+Explain how a DHCP server assigns IP addresses to devices in your network
+
+	A DHCP (Dynamic Host Configuration Protocol) server assigns IP addresses to devices on a network by automatically responding to requests from devices that need an IP address to join 	the network;
+	1. When a device connects, it sends a "DHCP Discover" broadcast message.
+	3. The server selects an available IP address from its pool and sends a "DHCP Offer" back to the device,
+	4. Then chooses the offer and confirms its acceptance with a "DHCP Request" message, allowing the server to finally send a "DHCP Acknowledgement" confirming the IP address 
+	assignment and other network settings like subnet mask and default gateway. 
+
+
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Intel(R) Wireless-AC 9461
+   Physical Address. . . . . . . . . : 68-54-5A-7A-2E-D9
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : 2409:408d:4e9a:c2af:c078:f8a8:93d9:18df(Preferred)
+   Temporary IPv6 Address. . . . . . : 2409:408d:4e9a:c2af:c0f:5289:495e:656b(Preferred)
+   Link-local IPv6 Address . . . . . : fe80::71b9:429:dd22:4e79%16(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.76.151(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Saturday, March 1, 2025 9:37:04 AM
+   Lease Expires . . . . . . . . . . : Saturday, March 1, 2025 2:31:40 PM
+   Default Gateway . . . . . . . . . : fe80::802f:59ff:febe:9865%16
+                                       192.168.76.173
+   DHCP Server . . . . . . . . . . . : 192.168.76.173
+   DHCPv6 IAID . . . . . . . . . . . : 258495578
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2F-52-99-D3-00-E0-4C-36-08-7C
+   DNS Servers . . . . . . . . . . . : 192.168.76.173
+                                       2409:408d:4e9a:c2af::f0
+   NetBIOS over Tcpip. . . . . . . . : Enabled
