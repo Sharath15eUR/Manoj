@@ -1,0 +1,10 @@
+Question-6:
+
+Step 1: Ping the Other Machine
+   ->ping <destination_IP>
+Step 2: Check IP Configuration
+   ->ipconfig /all
+Step 3: Check Network Connectivity with tracert
+   ->tracert <destination_IP>
+Step 4: Check Windows Firewall & ICMP Rules
+    ->netsh advfirewall set allprofiles state off

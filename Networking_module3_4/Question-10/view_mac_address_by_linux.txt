@@ -1,0 +1,9 @@
+Question-10:
+use Linux to view the MAC address table of the switch
+
+If using a Linux-based switch, we can inspect the MAC table using:
+
+**Using bridge Command**
+	->sudo bridge fdb show
+**Using ip link Command**
+	->ip link show

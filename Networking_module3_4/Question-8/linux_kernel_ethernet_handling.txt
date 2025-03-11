@@ -1,0 +1,40 @@
+Question-6:
+------------
+
+Linux Kernel's Handling of Ethernet Communication
+--------------------------------------------------
+
+The Linux kernel provides robust support for Ethernet communication through a well-defined networking stack. 
+This stack follows the OSI model, managing packet transmission, reception, and processing via various kernel subsystems.
+
+**1. Network Interface Handling**
+---------------------------------
+
+Ethernet devices in Linux are represented as network interfaces (e.g., eth0, ens33). 
+The kernel interacts with these interfaces via:
+
+Network device drivers: Found in /drivers/net/, these drivers handle specific Ethernet chipsets.
+The netdev subsystem: Manages network interfaces dynamically, allowing interface creation and removal.
+The command ip link show lists all available network interfaces.
+
+**2. Ethernet Packet Handling in the Kernel**
+----------------------------------------------
+
+Layer 2 (Data Link Layer): Uses the Linux bridging module (bridge.ko) to switch Ethernet frames.
+Layer 3 (Network Layer): Routes packets using the kernel’s IP routing table.
+Layer 4 (Transport Layer): Supports TCP/UDP using the sock API.
+Packets received by the Network Interface Card (NIC) are processed by IRQ handlers and passed up the stack.
+
+**3. Kernel Modules Supporting Ethernet**
+-------------------------------------------
+
+Generic Network Interface Module (net/core/dev.c): Handles the creation and management of network devices.
+TCP/IP stack (net/ipv4/, net/ipv6/): Implements IP networking.
+Netfilter (net/netfilter/): Manages firewall and NAT functionality via iptables or nftables.
+
+**4. Ethernet Communication with User Space**
+-----------------------------------------------
+
+The kernel exposes network interfaces through the /sys/class/net/ directory.
+User-space applications use socket() API to send and receive packets.
+The ethtool utility provides hardware-specific configurations.

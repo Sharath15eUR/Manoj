@@ -1,0 +1,11 @@
+Question-11:
+--------------
+
+Observations and Explanation:
+----------------------------------
+
+1. Linux machines successfully communicated via a switch after setting IP addresses and ensuring MAC address resolution.
+2. ping worked between the machines, confirming proper ARP resolution.
+3. traceroute showed a direct path between the machines without any drops, as expected in a LAN setup.
+4. The bridge fdb show command displays the MAC addresses learned by the switch, demonstrating its functionality in forwarding frames correctly.
+5. The Linux kernel efficiently manages Ethernet communication through its network stack and device drivers, ensuring seamless packet transmission    	and reception.
