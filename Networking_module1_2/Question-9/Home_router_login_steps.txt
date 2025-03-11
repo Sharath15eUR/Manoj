@@ -1,0 +1,9 @@
+Question -9 
+Log into your home Routers web interface and check connected device list
+
+I couldn't access my routers web interface(192.168.1.1)
+
+**steps to check the connected devices**
+->Open a web browser, type in your router's IP address
+->Log in with your router's username and password
+->Navigate to the "Connected Devices" or "Device List" section to see a list of currently connected devices on your network.

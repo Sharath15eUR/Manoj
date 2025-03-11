@@ -1,0 +1,25 @@
+Case-1: copying a folder with multiple files from Linux to windows using the SCP
+---------------------------------------------------------------------------------- 
+C:\Users\Manoj>scp -r manoj@192.168.76.43:/home/manoj/networking_assesment/ C:/Users/Manoj/Documents
+manoj@192.168.76.43's password:
+
+Directory of C:\Users\Manoj\Documents
+
+02/28/2025  04:14 PM    <DIR>          networking_assesment
+               0 File(s)              0 bytes
+               3 Dir(s)  53,818,335,232 bytes free
+
+Directory of C:\Users\Manoj\Documents\networking_assesment
+
+02/28/2025  04:14 PM    <DIR>          .
+02/28/2025  04:14 PM    <DIR>          ..
+02/28/2025  04:21 PM                 0 file1.txt
+02/28/2025  04:21 PM                 0 file2.txt
+02/28/2025  04:21 PM                 0 file3.txt
+               3 File(s)              0 bytes
+------------------------------------------------------------------------------------
+
+
+Case-2 : Copying a Directory in linux using cp 
+
+manoj@MyLinuxVm:~$ cp -r /home/manoj/networking_assesment/ /home/manoj/Documents/
