@@ -1,0 +1,12 @@
+NAT(Network Address Translation):
+---------------------------------
+
+1. Address Translation (NAT) is a networking technique used to modify the IP addresses in packet headers as 
+   they pass through a router.
+2. NAT enables multiple devices in a private network to access the internet using a single public IP address.
+
+WORKING:
+->A private device sends a request to access the internet.
+->The NAT router modifies the source IP (private) to a public IP.
+->The server on the internet responds to the public IP.
+->The NAT router translates back to the private IP and forwards the response.

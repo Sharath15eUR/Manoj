@@ -1,0 +1,6 @@
+DORA Process of DHCP:
+
+1. Discovery – The client broadcasts a DHCP DISCOVER message to find available DHCP servers.
+2. Offer – The DHCP server responds with a DHCP OFFER message containing an available IP address.
+3. Request – The client sends a DHCP REQUEST message to request the offered IP address.
+4. Acknowledgment – The DHCP server confirms the lease with a DHCP ACK message, completing the process.

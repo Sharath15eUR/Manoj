@@ -1,0 +1,23 @@
+Question-7:
+--------------
+You are given three IP addresses: 10.1.1.1, 172.16.5.10, and 192.168.1.5.
+Task: Identify the class of each IP address (Class A, B, or C). What is the default subnet mask for each class? Provide the range of IP addresses for each class.
+
+Classify IP Addresses:
+
+----------------------
+10.1.1.1 → Class A
+172.16.5.10 → Class B
+192.168.1.5 → Class C
+
+Default Subnet Masks:
+---------------------
+Class A: 255.0.0.0 (first 1 octet in the 4 octects are 1's)
+Class B: 255.255.0.0(first 2 octets in the 4 octects are 1's)
+Class C: 255.255.255.0(first 3 octets in the 4 octects are 1's)
+
+IP Ranges for Each Class:
+---------------------------
+Class A: 10.0.0.0 - 10.255.255.255
+Class B: 172.16.0.0 - 172.31.255.255
+Class C: 192.168.0.0 - 192.168.255.255

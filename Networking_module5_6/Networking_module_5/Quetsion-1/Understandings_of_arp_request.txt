@@ -1,0 +1,14 @@
+Module 5
+Question 1:
+
+1. Created a simple network in GNS3 with two VPCs and a switch.
+2. Assigned IP addresses and subnet masks to the VPCs.
+3. Generated an ARP request by executing the ping command from VPC1 to VPC2.
+4. Captured the ARP request and response in Wireshark.
+5. After completing the above steps, checked the ARP table of VPC1 using the show arp command, which 
+   displayed the MAC address of VPC2.
+
+Understanding:
+->When VPC1 pings VPC2, an ARP request is sent to VPC2, asking for the mac address that corresponds to the requested ip address
+->The ARP request is broadcasted to all devices in the network, but the response is unicasted.
+->The corresponding MAC address of the requested device (VPC2) is then stored in the ARP cache table

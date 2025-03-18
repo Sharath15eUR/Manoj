@@ -1,0 +1,29 @@
+Question-5:
+
+Given an IP address range of 192.168.1.0/24, divide the network into 4 subnets.
+Task: Manually calculate the new subnet mask and the range of valid IP addresses for each subnet. Assign IP addresses from these subnets to devices in Cisco Packet Tracer and verify connectivity using ping between them.
+------------------------------------------------------------------------------------------------------------------------------------
+
+Given ip address = 192.168.1.0/24
+
+->The give ip address belongs to the class -c ip address with subnet mask of 255.255.255.0 
+->There are actually 24 network bits and it is also mentioned above and it is called as CIDR(classless Inter Romain Routing) number.
+->In the above ip address given the last octect is the host bits and for each increase of the host bits the CIDR number increases by 1.
+
+**Being a host octect of 8-bits = max number of ip's present are 2^8=256**
+
+To divide it into 4:
+
+256/4=64
+
+hence the large network can be divided into 4 subnets:
+(ip ranges)
+The subnet masks for these networks are 255.255.255.192
+
+Network-1:192.168.1.0 - 192.168.1.63
+Network-2:192.168.1.64 - 192.168.1.127
+Network-3:192.168.1.128 - 192.168.1.191
+Network-4:192.168.1.192 - 192.168.1.255
+
+However the Fisrt and last ip addresses of each networks could not be used as they are used as Network ID and Broadcasting purpose.
+ 

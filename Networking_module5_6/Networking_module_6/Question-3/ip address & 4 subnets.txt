@@ -1,0 +1,15 @@
+The given ip address 10.0.0.0/24 
+
+->By referibg the CIDR number it belongs to  the class C.
+->it has a deefault subnet mask of 255.255.255.0 
+->In the above ip address given the last octect is the host bits and for each increase of the host bits the CIDR number increases by 
+
+We need 4 subnets so each subnet will be having 64 IP addresses.
+New Subnet mask is 255.255.255.192/26
+
+
+SUBNET		Netowrk Address		Usable IPs			Broadcast Address
+Subnet 1		10.0.0.0/26		10.0.0.1 - 10.0.0.62		10.0.0.63
+Subnet 2		10.0.0.64/26		10.0.0.65 - 10.0.0.126		10.0.0.127
+Subnet 3		10.0.0.128/26		10.0.0.129 - 10.0.0.190		10.0.0.191
+Subnet 4		10.0.0.192/26		10.0.0.193 - 10.0.0.254		10.0.0.255
