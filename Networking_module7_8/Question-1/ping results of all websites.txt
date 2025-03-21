@@ -1,0 +1,67 @@
+Microsoft Windows [Version 10.0.26100.3194]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Manoj>nslookup www.google.com
+Server:  dns.google
+Address:  8.8.8.8
+
+Non-authoritative answer:
+Name:    www.google.com
+Addresses:  2404:6800:4007:819::2004
+          142.250.182.4
+
+
+C:\Users\Manoj>nslookup www.amazon.com
+Server:  dns.google
+Address:  8.8.8.8
+
+Non-authoritative answer:
+Name:    d3ag4hukkh62yn.cloudfront.net
+Addresses:  2600:9000:2241:7200:7:49a5:5fd4:b121
+          2600:9000:2241:4c00:7:49a5:5fd4:b121
+          2600:9000:2241:9c00:7:49a5:5fd4:b121
+          2600:9000:2241:7800:7:49a5:5fd4:b121
+          2600:9000:2241:3800:7:49a5:5fd4:b121
+          2600:9000:2241:6c00:7:49a5:5fd4:b121
+          2600:9000:2241:4600:7:49a5:5fd4:b121
+          2600:9000:2241:dc00:7:49a5:5fd4:b121
+          18.67.156.60
+Aliases:  www.amazon.com
+          tp.47cf2c8c9-frontier.amazon.com
+
+
+C:\Users\Manoj>nslookup www.facebook.com
+Server:  dns.google
+Address:  8.8.8.8
+
+Non-authoritative answer:
+Name:    star-mini.c10r.facebook.com
+Addresses:  2a03:2880:f137:182:face:b00c:0:25de
+          157.240.192.35
+Aliases:  www.facebook.com
+
+
+C:\Users\Manoj>nslookup www.github.com
+Server:  dns.google
+Address:  8.8.8.8
+
+Non-authoritative answer:
+Name:    github.com
+Address:  20.207.73.82
+Aliases:  www.github.com
+
+
+C:\Users\Manoj>nslookup www.cisco.com
+Server:  dns.google
+Address:  8.8.8.8
+
+Non-authoritative answer:
+Name:    e2867.dsca.akamaiedge.net
+Addresses:  2600:1417:73:588::b33
+          2600:1417:73:582::b33
+          104.89.115.191
+Aliases:  www.cisco.com
+          www.cisco.com.akadns.net
+          wwwds.cisco.com.edgekey.net
+          wwwds.cisco.com.edgekey.net.globalredir.akadns.net
+

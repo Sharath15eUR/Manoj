@@ -1,0 +1,16 @@
+Key  Parameters:
+
+Hop Number: Each row represents a router the packet travels through.
+Response Times (ms): Shows delay for each hop.
+IP Address / Hostname: Displays the IP or DNS of each hop.
+Asterisks (*): Indicates a packet timeout (e.g., firewall blocking ICMP).
+
+
+
+Different Options for tracert:
+
+1. Default - tracert google.com
+2. Use ICMP - tracert -I google.com
+3. Use TCP - tracert -T google.com
+4. Set Maximum Hops - tracert -m 20 google.com
+5. Set a different port - tracert -p 80 google.com
