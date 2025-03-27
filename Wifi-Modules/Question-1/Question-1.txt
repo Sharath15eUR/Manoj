@@ -1,0 +1,11 @@
+Question-1:
+
+1. In which OSI layer does the Wi-Fi standard/protocol fit?
+
+Wi-Fi operates at both the Data Link Layer (Layer 2) and the Physical Layer (Layer 1) of the OSI model. 
+The Physical Layer handles radio wave transmission, while the Data Link Layer ensures data communication between devices through MAC addressing.
+
+Physical Layer:
+--This layer deals with the physical transmission of data, including the radio frequency (RF) signals used by Wi-Fi. 
+Data Link Layer:
+--This layer handles the formatting and control of data transmission, including the MAC addresses and frame structures used by Wi-Fi. 

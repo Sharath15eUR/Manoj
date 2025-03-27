@@ -1,0 +1,27 @@
+Question-9:
+
+
+Types of Wi-Fi Internet Connectivity Backhaul & Their Use Cases:
+
+
+1. DSL (Digital Subscriber Line) Backhaul: 
+	->Commonly used for home broadband, small office setups, and connecting rural areas to the internet.
+
+2. Cable (Coaxial) Backhaul:
+	-> Used for residential broadband services and within ISP networks.
+
+3. 4G LTE Backhaul: 
+
+	->Fiber Optic Backhaul: Provides high-speed internet in urban areas, business environments, and data centers.
+
+4. Ethernet Backhaul: 
+	->Preferred for enterprise Wi-Fi networks, office infrastructures, and campus access point connections.
+
+
+5. Mesh Wi-Fi Backhaul: 
+	->Best suited for large homes, offices, and campuses requiring seamless, wide-area Wi-Fi coverage.
+
+6. Power Line Communication Backhaul: 
+	->Utilizes existing electrical wiring to extend internet connectivity throughout homes and offices
+
+
