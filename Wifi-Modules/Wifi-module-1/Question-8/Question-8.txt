@@ -1,0 +1,29 @@
+Question-8:
+
+Difference between IEEE and WFA:
+
+The key difference between the Institute of Electrical and Electronic Engineers (IEEE) and the Wi-Fi Alliance (WFA) is that IEEE develops the technical standards for Wi-Fi (802.11), while WFA certifies products and networks that meet those standards. 
+
+**IEEE**:
+
+->Develops and publishes technical standards, including the 802.11 standards for wireless LANs (Wi-Fi). 
+
+->IEEE is responsible for the technical specifications, defining the protocols and technologies that form the basis of Wi-Fi. 
+
+->802.11a, 802.11b, 802.11g, 802.11n, 802.11ac, 802.11ax (Wi-Fi 6), 802.11be (Wi-Fi 7). 
+
+->IEEE doesn't test or certify products for compliance with its standards. 
+
+
+**WFA**:
+
+
+->Promotes and certifies Wi-Fi products and networks that meet the IEEE 802.11 standards. 
+
+->WFA develops certification programs and tests products to ensure they meet the requirements of the IEEE standards.
+
+->The WFA is an industry group comprised of manufacturers who initially aligned to ensure the interoperability of wireless devices. 
+
+->The WFA also created consumer-friendly names for Wi-Fi generations (e.g., Wi-Fi 4, Wi-Fi 5, Wi-Fi 6) based on the IEEE 802.11 standards. 
+
+->Wi-Fi CERTIFIED, Wi-Fi CERTIFIED QoS Management, Wi-Fi CERTIFIED HaLow. 
