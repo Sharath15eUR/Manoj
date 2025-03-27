@@ -1,8 +1,0 @@
-Question-4:
-
-Basic functionalities of a Wi-Fi Access Point
-
-->A Wi-Fi Access Point (AP) provides wireless connectivity by allowing devices to connect to a network. 
-->It converts a wired connection (Ethernet) into a wireless signal, extends coverage, and ensures security with encryption protocols like WPA2/WPA3.
-->A Wi-Fi Access Point (WAP) acts as a bridge, enabling wireless devices to connect to a wired network, allowing them to access the internet wirelessly. 
-->APs assist in managing bandwidth efficiently to devices on the network to ensure that the network is capable of maintaining the necessary traffic.
