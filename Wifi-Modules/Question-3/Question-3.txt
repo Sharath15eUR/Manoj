@@ -1,0 +1,19 @@
+Question-3:
+
+What is BSS and ESS?
+
+BSS (Basic Service Set):
+	->A BSS (Basic Service Set) is a group of wireless devices communicating with each other within a specific network.
+	->It consists of wireless devices (like laptops, smartphones) and an optional access point (AP) that they communicate with. 
+	->Devices within a BSS share the same radio frequency, modulation scheme, and security settings. 
+	->A BSS can be an ad-hoc network (without an AP) or an infrastructure network (with an AP). 
+	->A BSS without an AP is called an Independent BSS (IBSS) or ad-hoc network. 
+	->A BSS with an AP is an infrastructure network. 
+	->Devices in a BSS communicate through the central access point.
+	->No communication occurs directly between devices in the same BSS unless via the AP.
+
+ESS(Extended Service Set):
+	->An ESS is formed when multiple BSSs are connected together, typically through a distribution system (like a wired network). 
+	->This allows wireless devices to roam seamlessly between different BSSs within the same ESS. 
+	->An ESS has a single Service Set Identifier (SSID), which is the name of the wireless network. 
+	->Each BSS within an ESS is identified by its BSSID (Basic Service Set Identifier), which is the MAC address of the AP. 
