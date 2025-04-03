@@ -1,0 +1,25 @@
+Question-6:
+
+
+Sniffer Mode vs Monitor Mode:
+=============================
+
+Both Sniffer Mode and Monitor Mode are used for wireless packet analysis, but they serve different purposes and function differently.
+
+Sniffer Mode:
+
+	->Captures wireless packets for analysis, often used in troubleshooting.
+	->The AP does not serve clients in this mode.
+	->A sniffer is a piece of software or hardware that captures and analyzes data packets as they travel across a network.
+
+Function:
+	It examines the data packets, allowing network administrators to monitor traffic, troubleshoot 	issues, or identify potential security vulnerabilities. 
+
+=======================================================================================================
+Monitor Mode:
+	->monitor mode is a specific wireless network interface (WNIC) setting that allows a device to capture all wireless packets, even those not intended for it, without associating with a network.
+	->Monitor mode is a specific operating mode for wireless network interface controllers (WNICs) that allows them to capture all wireless packets on a channel, even those not intended for the device. 
+
+Function:
+It enables a device to passively listen to and capture wireless traffic, including management and control packets, without associating with a wireless network. 
+How it works:

@@ -1,0 +1,20 @@
+Question-4:
+-------------
+
+Lightweight APs VS Cloud-Based APs:
+
+
+Lightweight APs:
+----------------
+	->Lightweight Access Points (LAPs) rely on a Wireless LAN Controller (WLC) for configuration, security, and management.
+	->LAPs communicate with the WLC using the Lightweight Access Point Protocol (LWAPP).
+	->LAPs focus on the data plane, handling tasks like 802.11 frame transmission and encryption, while the WLC manages the control plane. 
+	->LAPs are well-suited for large deployments where centralized control and management are crucial. 
+
+
+Cloud-Based APs:
+----------------
+
+	->cloud-based APs manage these functions through a cloud-based platform, offering centralized control and scalability. 
+	->Cloud-based APs are highly scalable and flexible, allowing for easy deployment and management of networks of any size.
+	->Cloud-based APs handle both the data and control plane, offering a more streamlined management experience.

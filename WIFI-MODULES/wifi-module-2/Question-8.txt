@@ -1,0 +1,53 @@
+Question-8:
+===========
+
+Challenges of Deploying Autonomous (Standalone) APs in a Large Network:
+======================================================================
+
+Deploying autonomous (standalone) access points (APs) in a large network like universities presents challenges due to the lack of centralized management, leading to difficulties in scalability, configuration, and troubleshooting, as well as potential security issues. 
+
+
+	-> Complex management and configuration.
+
+	-> Lack of centralized control.
+
+	-> Higher maintenance overhead.
+
+	-> Difficulty in seamless roaming for clients.
+
+
+1. Scalability and Management Complexity:
+
+Manual Configuration:
+====================
+	Each autonomous AP needs individual configuration, making it time-consuming and error-	prone to scale up a network.
+
+Lack of Centralized Control:
+============================
+	There's no single point of management for these APs, making it difficult to monitor, 	update, or troubleshoot the entire network.
+
+Troubleshooting:
+================
+	Identifying and resolving issues in a large network of autonomous APs can be 	significantly more challenging without a central view of the network's status. 
+
+2. Roaming and Interoperability:
+
+Limited Roaming:
+================
+	Autonomous APs often lack the intelligence to facilitate smooth roaming between APs, 	potentially leading to dropped connections for users moving between areas. 
+
+Inability to Support Advanced Features:
+=======================================
+	They may not support features like 802.11r, Layer 3 roaming, or global bandwidth 	management, which are crucial for modern wireless deployments. 
+
+
+3. Cost and Maintenance:
+=======================
+
+Higher Cost:
+=============
+	The need for individual configuration and management can lead to higher operational 	costs, including labor and training. 
+
+Increased Maintenance:
+======================
+	Maintaining a large network of autonomous APs can be more demanding, requiring more 	resources and expertise. 

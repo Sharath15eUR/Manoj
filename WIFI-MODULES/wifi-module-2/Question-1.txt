@@ -1,0 +1,27 @@
+Question-1:
+-----------
+
+SPLIT MAC ARCHITECTURE:
+-----------------------
+
+->Split-MAC architecture is a common approach in wireless networking where the functions of an autonomous access point are divided between a lightweight access point and a Wireless LAN Controller .
+->This architecture allows for centralized management and control of multiple LAPs from a single WLC, making it easier to deploy and manage large wireless networks.
+
+KEY COMPONENTS:
+---------------
+	1. Wireless LAN Controller (WLC): 
+		Manages the network, handles non-real-time functions, and acts as a central point for configuration and control. 
+	2. Access Points (APs): 
+		Handle real-time data processing, act as a bridge between wireless clients and the wired network, and offload complex tasks to the WLC. 
+
+HOW IT IMPROVES AP PERFORMANCE:
+-------------------------------
+
+1. Centralized Management: 
+	The WLC manages multiple APs, simplifying configurations and updates across the network. 
+2. Radio Resource Management (RRM): 
+	The WLC optimizes radio frequencies, minimizing interference and enhancing throughput. 
+3. Offloading Complex Tasks: 
+	The WLC handles complex, non-real-time tasks, freeing up the AP to focus on real-time data processing, leading to faster data processing and improved network performance. 
+4. Improved Scalability: 
+	The centralized approach allows for easier scaling of the wireless network by adding more APs without overloading individual APs. 

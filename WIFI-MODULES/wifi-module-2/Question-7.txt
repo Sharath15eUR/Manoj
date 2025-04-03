@@ -1,0 +1,22 @@
+Question-7:
+==========
+
+If WLC is deployed in WAN which AP mode is best for local network and why?
+
+For a local network with a WLC deployed over a WAN, FlexConnect mode is the best AP mode because it allows APs to continue functioning even if they lose connectivity with the WLC, ensuring wireless services remain operational in remote locations. 
+
+
+FlexConnect Mode:
+------------------
+
+	1. Local Switching: 
+	FlexConnect allows APs to locally switch traffic between a VLAN and SSID when the 	CAPWAP tunnel to the WLC is down. 
+
+	2. WAN Bandwidth Optimization: 
+	This mode is ideal for branch offices with limited WAN bandwidth, as it avoids 	tunneling all client traffic over the WAN link. 
+
+	3. Continued Functionality: 
+	Even if the WAN link to the WLC fails, the APs can continue to provide wireless 	services to local clients. 
+
+	4. Egress at AP LAN Port: 
+	FlexConnect can be configured to egress traffic at the 	AP's LAN port, further 	optimizing WAN usage. 

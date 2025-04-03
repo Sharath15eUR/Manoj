@@ -1,0 +1,51 @@
+Question-2:
+-----------
+
+what is CAPWAP and explain the flow between AP and controller?
+
+CAPWAP(Control and Provisioning of Wireless Access Points):
+===========================================================
+	->It is a standard protocol enabling centralized management of wireless access points (APs) by a Wireless LAN Controller (WLC), facilitating communication and control over a secure tunnel.
+	->CAPWAP provides a framework for streamlined and enhanced centralized management of wireless networks, allowing administrators to manage multiple APs from a single point. 
+
+
+FLOW BETWEEN AP AND CONTROLLER:
+===============================
+
+In a wireless network with a controller, the flow between the Access Point (AP) and the Wireless LAN Controller (WLC) involves the AP discovering and joining the WLC, establishing a secure connection, and then forwarding client traffic through a CAPWAP tunnel. 
+
+	1. Discovery and Join:
+AP Discovery:
+
+	The AP, when powered on, initiates a discovery process to find a WLC by sending out 	discovery request messages.
+WLC Response:
+
+	The WLC, upon receiving the discovery request, responds with a discovery response, 	allowing the AP to identify and select the WLC to join.
+
+CAPWAP Join Request:
+
+	The AP then sends a CAPWAP join request to the WLC, requesting to join the network.
+
+CAPWAP Join Response:
+	The WLC responds with a CAPWAP join response, allowing the AP to join the network and 	become managed by the WLC. 
+
+	2. Secure Connection and Tunneling:
+
+DTLS Protocol:
+	After the join, the AP and WLC establish a secure connection using the Datagram 	Transport Layer Security (DTLS) protocol to exchange CAPWAP control and data 	messages. 
+CAPWAP Tunnel:
+	The CAPWAP protocol is used to create a tunnel between the AP and WLC, allowing the 	AP to forward client traffic to the WLC. 
+Encapsulation:
+	The AP encapsulates the 802.11 frames received from clients into 802.3 frames (or 	GRE/tunneling) for transport across the network to the WLC. 
+Data Plane:
+	The WLC then decrypts the data, authenticates the client, and forwards the data to 	the appropriate destination.
+
+	3. Control Plane:
+
+Configuration and Management:
+	The WLC manages the AP's configuration, firmware, and control transactions via the 	control plane. 
+Data Plane:
+	The WLC also manages the data plane, forwarding client traffic to and from the 	network. 
+Centralized Management:
+	The WLC provides a centralized point for configuration, policy application, and 	management of the wireless network. 
+ 

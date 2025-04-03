@@ -1,0 +1,27 @@
+Question-3:
+
+OSI MODEL FIT IN:
+
+CAPWAP (Control and Provisioning of Wireless Access Points) primarily operates at Layer 3 (Network Layer) of the OSI model, using IP addresses for communication between the Wireless LAN Controller (WLC) and Access Points (APs). 
+
+
+
+CAPWAP operates using two tunnels:
+
+1.Control Tunnel:
+-----------------
+
+UDP port - UDP 5246
+
+-This tunnel carries control messages, which are used for tasks like AP discovery, joining the WLC, configuration synchronization, and gathering statistics.
+-Handles AP discovery, authentication, configuration, and firmware updates.
+-Encrypted using DTLS (Datagram Transport Layer Security).
+
+2.Data Tunnel:
+---------------
+
+UDP port - UDP 5247
+
+-Used for transmitting user data (packets from clients to the network). May or may not be encrypted.
+-Can either be centrally forwarded to WLC (Tunnel Mode) or locally switched (FlexConnect Mode).
+-Optional Encryption, based on configuration.
