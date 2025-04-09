@@ -1,0 +1,19 @@
+Question-9:
+===========
+
+9. What is the difference between MIMO and MU-MIMO? 
+
+
+MIMO (Single-User MIMO):
+------------------------
+-> Uses multiple antennas at both the transmitter and receiver to send and receive multiple data streams simultaneously, improving data rates and signal quality for a single user. 
+-> Think of it as a single, high-speed lane for a single vehicle. 
+-> MIMO typically uses MxN, where M indicates the number of Tx antennas and N indicates the number of Rx antennas
+-> Used In: 802.11n, 802.11ac, 802.11ax (Wi-Fi 4/5/6)
+
+MU-MIMO (Multi-User MIMO):
+----------------------------
+-> Builds upon MIMO by allowing a single access point to simultaneously communicate with multiple devices, each receiving their own data stream. 
+-> Think of it as a multi-lane highway where multiple vehicles can travel simultaneously. 
+-> MU-MIMO implements multi-user communication by adding the indicator of MU based on MIMO, and is represented by MxN:U.
+-> Used In: Introduced in 802.11ac (Wi-Fi 5, downlink) and enhanced in 802.11ax (Wi-Fi 6, uplink & downlink)

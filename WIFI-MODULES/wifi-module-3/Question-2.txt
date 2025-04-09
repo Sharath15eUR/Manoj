@@ -1,0 +1,12 @@
+Question-2:
+
+2. What are DSSS and FHSS? How do they work?
+
+
+-> DSSS (Direct Sequence Spread Spectrum) spreads the signal over a wider frequency using a pseudo-random code. 
+
+	-DSSS spreads the signal's bandwidth by multiplying the original data signal with a high-frequency pseudorandom sequence (also known as a spreading code). This creates a signal with a much wider bandwidth than the original data signal. 
+
+-> FHSS (Frequency Hopping Spread Spectrum) rapidly switches carrier frequencies. Both reduce interference and improve security in wireless communication.
+
+	-FHSS rapidly switches the carrier frequency between a set of available frequencies in a pseudorandom sequence. Both the transmitter and receiver must use the same pseudorandom sequence to communicate.

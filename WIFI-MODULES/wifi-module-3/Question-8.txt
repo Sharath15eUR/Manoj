@@ -1,0 +1,32 @@
+Question-8:
+===========
+
+8. What is the difference between OFDM and OFDMA? 
+
+-> Both OFDM and OFDMA are digital modulation technologies used in wireless communication systems, particularly in Wi-Fi (802.11) and cellular networks. 
+-> While they are related, they serve different purposes in resource allocation and user management.
+-> OFDM (Orthogonal Frequency Division Multiplexing) is a single-user technique, while OFDMA (Orthogonal Frequency Division Multiple Access) is a multi-user extension of OFDM, allowing multiple users to share the same channel resources dynamically. 
+
+
+OFDM:
+=====
+
+Purpose:
+--------
+A digital modulation technique that divides a single channel into multiple orthogonal subcarriers for data transmission, designed for a single user. 
+
+Use Cases:
+----------
+Used in areas such as cellular networking, broadcast media, and previous versions of Wi-Fi. 
+
+
+OFDMA:
+======
+
+Purpose:
+--------
+An extension of OFDM that allows multiple users to utilize the subcarriers simultaneously, enhancing network efficiency and reducing latency, particularly in high-density environments. 
+
+Use Cases:
+----------
+Used in newer versions of Wi-Fi (Wi-Fi 6) and 4G/5G LTE to enable simultaneous access to multiple users. 

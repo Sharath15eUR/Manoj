@@ -1,0 +1,23 @@
+Question-6:
+==========
+
+
+6. What is the role of Guard Intervals in WLAN transmission? How does a short Guard Interval improve efficiency? 
+
+
+In WLAN transmission, the Guard Interval (GI) is a short period of time inserted between transmitted symbols to prevent signal interference caused by multipath effects, and a shorter GI can improve efficiency by allowing for faster symbol transmission and higher throughput. 
+
+
+-> It ensures clear separation between OFDM symbols.
+-> It provides time for delayed echoes (reflected signals) to die out before the next symbol starts.
+-> It makes the system more robust in environments with multipath, such as indoor Wi-Fi zones with walls and furniture.
+
+Without a proper guard interval, signals could interfere with each other, causing errors and the need for retransmissions.
+
+
+
+Improvements in efficiency:
+
+-> Higher Throughput: Reducing the GI from 800 ns to 400 ns increases the number of symbols transmitted per second, improving data rate by up to ~11%.
+-> Better Efficiency: Especially beneficial in low-multipath environments, like open areas or when using MIMO, where echoes are minimal.
+-> Enhanced Performance in Modern Wi-Fi: Short GI is used in 802.11n, 802.11ac, and 802.11ax, making networks faster without increasing bandwidth or power.

@@ -1,0 +1,65 @@
+Question-1:
+----------
+
+1. What are the different 802.11 PHY layer standards? Compare their characteristics.
+
+
+The 802.11 family includes standards like 802.11a, b, g, n, ac, ax, etc. 
+
+Each defines the physical (PHY) layer for wireless LANs. 
+
+
+1. 802.11b:
+-----------
+
+Frequency Band: 2.4 GHz.
+Modulation: Direct Sequence Spread Spectrum (DSSS).
+Maximum Data Rate: 11 Mbps.
+Range: Good range, suitable for general home and small business use.
+Interference: Susceptible to interference from other 2.4 GHz devices.
+Compatibility: Backward compatible with legacy 802.11. 
+
+2. 802.11a:
+
+Frequency Band: 5 GHz.
+Modulation: Orthogonal Frequency Division Multiplexing (OFDM).
+Maximum Data Rate: 54 Mbps.
+Range: Shorter range than 802.11b/g/n, but better for higher bandwidth applications.
+Interference: Less interference from other 2.4 GHz devices.
+Compatibility: Not backward compatible with 802.11b/g. 
+
+3. 802.11g:
+
+Frequency Band: 2.4 GHz.
+Modulation: OFDM.
+Maximum Data Rate: 54 Mbps.
+Range: Good range, similar to 802.11b.
+Interference: Susceptible to interference from other 2.4 GHz devices.
+Compatibility: Backward compatible with 802.11b. 
+
+4. 802.11n:
+
+Frequency Band: 2.4 GHz and 5 GHz.
+Modulation: OFDM.
+Maximum Data Rate: Up to 600 Mbps (theoretical).
+Range: Good range, can use 20, 40 MHz channel widths.
+Interference: Less interference than 802.11b/g.
+Compatibility: Backward compatible with 802.11a/b/g. 
+
+5. 802.11ac:
+
+Frequency Band: 5 GHz.
+Modulation: OFDM.
+Maximum Data Rate: Up to 867 Mbps (theoretical).
+Range: Shorter range than 802.11n, but better for higher bandwidth applications.
+Interference: Less interference than 802.11b/g/n.
+Compatibility: Backward compatible with 802.11a/n. 
+
+6. 802.11ax (Wi-Fi 6):
+
+Frequency Band: 2.4 GHz, 5 GHz, and 6 GHz.
+Modulation: OFDM.
+Maximum Data Rate: Up to 9.6 Gbps (theoretical).
+Range: Good range, can use 20, 40, 80, 80+80, 160 MHz channel widths.
+Interference: Less interference than previous standards.
+Compatibility: Backward compatible with 802.11a/b/g/n/ac. 

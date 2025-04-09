@@ -1,0 +1,32 @@
+Question-7:
+===========
+
+7. Describe the structure of an 802.11 PHY layer frame. What are its key components? 
+
+	-> The 802.11 PHY layer frame, also known as a PLCP Protocol Data Unit (PPDU), consists of a preamble, a header, and a data portion (MPDU). 
+	-> The preamble facilitates synchronization, while the header carries information for the physical layer, and the MPDU contains the actual data. 
+
+
+Preamble:
+=========
+	Purpose: The preamble is used for synchronization between the transmitter and receiver, helping them to lock onto the incoming signal. 
+	Structure: It typically consists of a series of known sequences, including short training sequences and long training sequences. 
+	Function: The preamble is used to:
+	Detect signal presence: The receiver uses the preamble to detect the presence of a valid signal. 
+	Time synchronization: The preamble helps the receiver to synchronize its timing with the transmitter. 
+	Channel equalization: The training sequences in the preamble allow the receiver to estimate and compensate for the channel characteristics. 
+
+Header:
+======
+	Purpose: The header contains information needed by the physical layer transmitters and receivers to process the data. 
+	Structure: The header typically includes information about the data rate, modulation scheme, and length of the data portion. 
+	Function: The header is used to:
+	Data rate indication: The header specifies the data rate at which the data is transmitted. 
+	Modulation scheme: The header indicates the modulation scheme used for the data transmission. 
+	Frame length: The header specifies the length of the data portion. 
+
+Data Portion (MPDU):
+====================
+	Purpose: The data portion contains the actual data that is being transmitted. 
+	Structure: The data portion is the payload that is transmitted from the MAC layer. 
+	Function: The data portion carries the data that needs to be transmitted from one station to another. 

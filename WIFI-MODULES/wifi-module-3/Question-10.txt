@@ -1,0 +1,24 @@
+Question-10:
+============
+
+10. What are PPDU, PLCP, and PMD in the PHY layer? 
+
+PPDU (Physical Layer Protocol Data Unit):
+=========================================
+
+-> This is the final packet format that is transmitted over the wireless medium. 
+-> It's the result of the PLCP sublayer adding a preamble and PHY header to the data received from the MAC layer (which is known as the PLCP Service Data Unit or PSDU). 
+-> The PPDU includes a preamble for synchronization, a header for PHY-related information, and the actual data payload. 
+
+PLCP (Physical Layer Convergence Procedure):
+============================================
+
+-> This sublayer acts as a bridge between the MAC layer and the PMD sublayer. 
+-> Its primary function is to prepare the data for transmission by adding a preamble and PHY header to the PSDU, creating the PPDU. 
+-> The PLCP ensures that the data is formatted correctly for the specific physical layer technology being used (e.g., OFDM, CCK). 
+
+PMD (Physical Medium Dependent):
+================================
+-> This sublayer is responsible for the physical transmission of the data. 
+-> It handles tasks like modulation, coding, and frequency selection to transmit the data over the wireless medium. 
+-> The PMD sublayer ensures that the data is transmitted in a way that is compatible with the specific physical medium (e.g., radio frequency). 

@@ -1,0 +1,25 @@
+Question-4:
+===========
+
+4. What is the significance of OFDM in WLAN? How does it improve performance? 
+
+
+	-> OFDM is a modulation technique that divides the available bandwidth into multiple, closely spaced subchannels, or carriers. 
+
+	-> Each subcarrier carries a portion of the data, and the data is transmitted simultaneously on all subcarriers. 
+
+	-> The subcarriers are designed to be orthogonal, meaning they don't interfere with each other, even though they occupy adjacent frequencies. 
+
+
+How OFDM improves WLAN performance: 
+===================================
+
+1. Increased Spectral Efficiency: OFDM allows for more efficient use of the available bandwidth by dividing it into multiple subchannels, which can be modulated independently. 
+
+2. Resilience to Interference: The orthogonal nature of the subcarriers makes OFDM more robust to interference, including multipath fading and narrowband interference. 
+
+3. Improved Data Rates: By efficiently using the bandwidth and being more resilient to interference, OFDM enables higher data rates in WLANs. 
+
+4. Simplified Equalization: OFDM simplifies the equalization process, which is necessary to compensate for channel impairments. 
+
+5. Reduced Inter-Symbol Interference (ISI): Using guard intervals between symbols helps to eliminate inter-symbol interference, further enhancing the reliability of the transmission. 
