@@ -1,0 +1,18 @@
+Question-6:
+===========
+
+6. Explain each step involved in EAPOL 4-way handshake and the purpose of each keys derived from the process?
+
+	The EAPOL 4-way handshake is a process that securely establishes encryption keys between a wireless access point (AP) and a client device (STA). 
+	It involves four EAPOL-Key messages exchanged between the devices to generate a Pairwise Transient Key (PTK) and optionally a Group Temporal Key (GTK). 
+	These keys are then used to encrypt and decrypt data transmitted between the AP and STA. 
+
+
+1. Message 1:
+	The AP sends an EAPOL-Key frame containing a random number called ANonce to the STA. This ANonce is used in the PTK generation process. 
+2. Message 2:
+	The STA sends back an EAPOL-Key frame containing a random number called SNonce, along with a MIC (Message Integrity Check) value. The MIC verifies the integrity of the 	message and the identity of the STA. The SNonce, along with ANonce, PMK, and other relevant information, is used to derive the PTK. 
+3. Message 3:
+	The AP sends an EAPOL-Key frame containing the GTK, an RSN-IE (RSN Information Element), and another MIC. The GTK is used for securing broadcast and multicast traffic. 
+4. Message 4:
+	The STA sends an EAPOL-Key frame confirming that the GTK (if present) and PTK have been successfully installed. This message confirms the completion of the handshake. 

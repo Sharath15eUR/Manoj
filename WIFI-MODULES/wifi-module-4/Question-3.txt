@@ -1,0 +1,28 @@
+Question-3:
+===========
+Please list all the MAC layer functionalities in all Management, Control and Data plane?
+
+
+Data Plane:
+============
+
+	Access Control
+	Frame Addressing
+	Frame Formatting
+	Error Detection
+	Collision Handling
+	Flow Control
+	Addressing
+	Multiplexing 
+
+Control Plane:
+==============
+
+	Network Setup and Configuration
+	Protocol Signaling
+	Scheduling and Resource Allocation
+
+Management Plane:
+================
+	Configuration and Monitoring
+	Security

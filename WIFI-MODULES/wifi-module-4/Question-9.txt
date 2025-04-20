@@ -1,0 +1,22 @@
+Question-9:
+============
+
+9. Brief about the Block ACK mechanism and its advantages?
+
+	-> Block Acknowledgement (BA) is a wireless networking mechanism that improves efficiency by consolidating acknowledgments for multiple data packets into a single frame, reducing overhead and increasing throughput. 
+	-> It works by allowing a receiver to acknowledge the successful reception of a block of frames with a single Block ACK frame, rather than individual acknowledgements for each frame. 
+
+
+
+Advantages of Block ACK:
+
+1. Reduced Overhead:
+	By acknowledging multiple frames with one frame, BA significantly reduces the number of control frames exchanged, saving airtime and reducing contention. 
+2. Increased Throughput:
+	Less overhead translates to more time available for data transmission, leading to higher throughput. 
+3. Selective Acknowledgement:
+	BA can include information about which frames within the block were successfully received, allowing for more efficient retransmission of lost or damaged data. 
+4. Improved Efficiency:
+	By consolidating acknowledgments and reducing contention, BA makes more efficient use of the wireless channel, especially in high-traffic scenarios. 
+5. Support for QoS:
+	The BA mechanism is often used in conjunction with Quality of Service (QoS) standards like IEEE 802.11e, enabling better control and prioritization of traffic. 

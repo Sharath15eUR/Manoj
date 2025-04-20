@@ -1,0 +1,22 @@
+Question-5:
+===========
+
+5. Brief about Client Association process
+
+
+-> The client association process in a wireless network is how a device joins and connects to a specific access point (AP). 
+-> It involves a series of steps where the client discovers available APs, sends an association request, and the AP, if it meets the criteria, sends an association response. 
+-> This response includes an Association ID (AID), a unique identifier for the client within that AP. 
+
+
+Discovery: Clients listen for beacons or actively send probe requests to discover available APs within range.
+
+Authentication: The client typically performs 802.11 authentication, often an "Open System Authentication," before sending an association request.
+
+Association Request: The client sends an association request to the chosen AP.
+
+Association Response: The AP, after verifying the client's eligibility (e.g., meeting security requirements), sends an association response. This response includes the AID, a unique identifier for the client within that AP, and the association is successful if the client is accepted.
+
+Further Authentication (if needed): After the initial association, additional authentication mechanisms like WPA2 or 802.1X might be performed.
+
+Data Transmission: Once associated, the client can start transmitting data through the AP. 
