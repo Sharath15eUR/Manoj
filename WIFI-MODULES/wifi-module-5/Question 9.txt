@@ -1,0 +1,18 @@
+Question-9:
+==========
+9.Explain the concept of Fast BSS Transition (802.11r) and its benefit in mobile environments.
+
+
+Fast BSS Transition (802.11r) is designed to speed up the handoff process when a client device moves from one access point to another within the same network.
+
+Faster Handoffs:
+----------------
+802.11r introduces a fast re-authentication protocol that reduces the authentication delay during roaming. This is done by pre-authenticating with nearby access points and reusing encryption keys.
+
+Real-Time Applications:
+-----------------------
+In latency-sensitive environments like VoIP, gaming, or video conferencing, even brief delays during handoff can cause noticeable glitches. 802.11r ensures a seamless experience without dropped packets or voice interruptions.
+
+Enhanced Mobility:
+-------------------
+Devices can move throughout a large area (e.g., hospitals, airports, warehouses) without losing connectivity or experiencing lag, making it ideal for mobile workforces and smart devices in motion.

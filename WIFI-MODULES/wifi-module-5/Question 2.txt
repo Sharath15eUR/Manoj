@@ -1,0 +1,23 @@
+Question-2:
+=========
+2.Explain the role of OFDMA in Wi-Fi 6 and how it improves network efficiency.
+
+Answer:
+-------
+OFDMA (Orthogonal Frequency Division Multiple Access) is a foundational technology introduced in Wi-Fi 6 that significantly improves network efficiency by allowing multiple devices to transmit and receive data simultaneously within a single Wi-Fi channel.
+
+Efficiency:
+-----------
+OFDMA breaks down a Wi-Fi channel into multiple smaller sub-channels called Resource Units (RUs). Each RU can carry data for a different device, allowing multiple users to communicate with the access point in parallel, instead of taking turns.
+
+Low Latency:
+------------
+By enabling concurrent transmissions, OFDMA reduces the time each device waits to access the medium, resulting in faster response times and more stable connections.
+
+Reduced Contention:
+-------------------
+Traditional Wi-Fi systems operate on a contention-based model, where devices compete for access. OFDMA minimizes this by scheduling transmissions, greatly reducing collisions and backoff times.
+
+Ideal for IoT:
+--------------
+OFDMA is particularly beneficial for environments with many low-bandwidth devices, such as smart homes and industrial IoT setups, where efficient scheduling and minimal power use are crucial.

@@ -1,0 +1,22 @@
+Question-8:
+===========
+8. What is the purpose of 802.11k and v, and how does it aid in roaming?
+
+
+802.11k and 802.11v are IEEE standards that improve the roaming efficiency of client devices in Wi-Fi networks, especially in enterprise or campus environments with multiple access points.
+
+802.11k (Neighbor Reports):
+---------------------------
+Allows the access point to provide the client with a list of nearby APs and their signal strength. The client can use this information to scan only specific channels, speeding up the decision-making process and reducing roaming delay.
+
+802.11v (Network-Assisted Roaming):
+-----------------------------------
+Enables the network to suggest better APs to the client based on load balancing, signal quality, and other factors. This proactive guidance helps optimize network performance and ensures that devices connect to the most appropriate AP.
+
+Benefits:
+---------
+These features reduce 
+	-> Roaming time 
+	-> Prevent dropped connections,
+	-> Enhance user experience—especially important for applications like VoIP, video streaming, or mobile device management in large buildings.
+

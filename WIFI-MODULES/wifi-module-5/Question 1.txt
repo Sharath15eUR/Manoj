@@ -1,0 +1,50 @@
+Question-1:
+==========
+
+What are the key features of Wi-Fi 6, 6E and 7 and how do they differ from previous standards like Wi-Fi 5 (802.11ac)?
+
+
+Wi-Fi 6 (802.11ax), Wi-Fi 6E, and Wi-Fi 7 (802.11be) represent major advancements over Wi-Fi 5 (802.11ac) in terms of speed, efficiency, and capabilities.
+
+Wi-Fi 6 (802.11ax):
+-------------------
+
+OFDMA (Orthogonal Frequency Division Multiple Access): Enables simultaneous data transmission to multiple devices.
+
+Target Wake Time (TWT): Reduces power consumption in devices by scheduling transmissions.
+
+MU-MIMO (Multi-User, Multiple-Input, Multiple-Output): Enhanced for both uplink and downlink.
+
+Higher Data Rates: Up to 9.6 Gbps.
+
+Improved efficiency and capacity: Ideal for dense environments.
+
+Wi-Fi 6E:
+---------
+
+6 GHz Band Access: Adds 1200 MHz of spectrum, reducing congestion.
+
+More Non-overlapping Channels: Supports more simultaneous users and devices.
+
+Less Interference: Operates in a cleaner frequency space.
+
+Wi-Fi 7 (802.11be):
+-------------------
+
+Extremely High Throughput: Up to 46 Gbps.
+
+Multi-Link Operation (MLO): Aggregates links across different bands to improve speed and reliability.
+
+4096-QAM: Increased modulation for higher data rates.
+
+Enhanced Scheduling: Lower latency and jitter for applications like AR/VR and gaming.
+
+Differences from Wi-Fi 5 (802.11ac):
+------------------------------------
+
+Wi-Fi 5 uses only the 5 GHz band, while Wi-Fi 6 and 7 can use 2.4, 5, and 6 GHz.
+
+Wi-Fi 6/7 support OFDMA and advanced MU-MIMO; Wi-Fi 5 lacks OFDMA.
+
+Wi-Fi 7 offers groundbreaking speed and ultra-low latency features not present in Wi-Fi 5.
+

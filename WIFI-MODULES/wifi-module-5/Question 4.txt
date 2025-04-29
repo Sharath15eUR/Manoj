@@ -1,0 +1,25 @@
+Question-4:
+
+4. Explain the significance of the 6 GHz frequency band in Wi-Fi 6E.
+
+	The 6 GHz frequency band, introduced with Wi-Fi 6E (an extension of Wi-Fi 6), marks a major advancement in wireless technology by providing a large, clean spectrum for next-generation connectivity.
+
+Increased Spectrum:
+-------------------
+Wi-Fi 6E unlocks up to 1200 MHz of additional spectrum (from 5.925 GHz to 7.125 GHz). This is a massive expansion compared to the 2.4 GHz and 5 GHz bands, which have far less available bandwidth and are heavily congested.
+
+More High-Capacity Channels:
+----------------------------
+The new band supports up to 59 non-overlapping 20 MHz channels, or 7 full 160 MHz channels. Wider channels are essential for high-throughput applications such as 8K streaming, cloud gaming, virtual reality, and large-scale file transfers.
+
+Low Interference and Cleaner Spectrum:
+--------------------------------------
+The 6 GHz band is reserved exclusively for Wi-Fi 6E and newer devices, meaning it is free from legacy Wi-Fi interference. This leads to reduced noise, more reliable performance, and better quality of service.
+
+Enhanced Performance:
+---------------------
+Applications running on the 6 GHz band benefit from lower latency, improved speed, and more predictable behavior—especially in dense environments like stadiums, campuses, or enterprise networks.
+
+Future-Proofing:
+----------------
+The 6 GHz band ensures that Wi-Fi networks can handle the increasing demand for wireless capacity over the next decade, making it essential for future-proof infrastructure.

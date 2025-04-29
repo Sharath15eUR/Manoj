@@ -1,0 +1,25 @@
+Question-6:
+6. What are the major innovations introduced in Wi-Fi 7 (802.11be)?
+
+Wi-Fi 7 (802.11be), the next generation of Wi-Fi, introduces groundbreaking features that drastically enhance performance, speed, and reliability.
+
+Multi-Link Operation (MLO):
+---------------------------
+Devices can simultaneously use multiple frequency bands (e.g., 5 GHz + 6 GHz), combining bandwidth and enhancing reliability. It improves throughput and ensures continuous connectivity, even if one band experiences interference.
+
+320 MHz Channel Support:
+------------------------
+Wi-Fi 7 supports ultra-wide 320 MHz channels, doubling the maximum bandwidth of Wi-Fi 6. This allows for higher data transmission rates, enabling faster downloads, ultra-HD streaming, and real-time collaboration.
+
+4096-QAM (4K-QAM):
+-----------------
+Quadrature Amplitude Modulation (QAM) determines how many bits can be packed into each signal. Wi-Fi 7’s 4096-QAM increases data capacity by 20–25% compared to the 1024-QAM in Wi-Fi 6, resulting in significantly faster speeds.
+
+Enhanced Scheduling and Lower Latency:
+--------------------------------------
+Wi-Fi 7 introduces improved MAC-layer scheduling, enabling more deterministic (predictable) data transmission. This helps reduce latency and jitter, essential for real-time applications like AR/VR and online gaming.
+
+Time-Sensitive Networking (TSN):
+--------------------------------
+Borrowed from the industrial Ethernet world, TSN in Wi-Fi 7 guarantees low-latency, time-bound delivery of data, making it suitable for mission-critical applications like robotics, healthcare, or synchronized multimedia playback.
+

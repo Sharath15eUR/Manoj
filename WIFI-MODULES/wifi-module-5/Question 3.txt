@@ -1,0 +1,31 @@
+Question-3:
+
+3. Discuss the benefits of Target Wake Time (TWT) in Wi-Fi 6 for IoT devices.
+
+
+	Target Wake Time (TWT) is a power-saving feature introduced in Wi-Fi 6 (802.11ax) that enables scheduled communication between a client device and the wireless access point. It is especially beneficial in environments with a high number of connected devices, such as Internet of Things (IoT) networks.
+
+Power Saving:
+-------------
+->TWT allows devices to agree with the access point on specific times when they will wake up to transmit or receive data. 
+->By doing this, devices can remain in a low-power sleep state for longer periods, waking only when necessary. 
+->This significantly extends battery life, which is especially critical for IoT devices such as sensors, smart meters, or medical wearables that are often battery-powered and expected to run for months or years without recharging.
+
+Reduced Congestion:
+-------------------
+Traditional Wi-Fi networks can become congested when many devices attempt to access the medium simultaneously. 
+TWT helps by coordinating wake times among devices, thereby staggering their transmissions. 
+This reduces simultaneous access attempts, minimizes collisions, and leads to more efficient use of the available bandwidth.
+
+Improved Network Efficiency:
+----------------------------
+TWT supports scheduled and predictable data exchange, allowing access points to manage network airtime more efficiently.
+It ensures that low-priority or infrequent transmissions do not interfere with real-time or high-priority traffic, improving overall throughput and reducing latency.
+
+Enhanced Scalability for IoT Deployments:
+-----------------------------------------
+In smart environments (e.g., smart cities, industrial automation, healthcare), where hundreds or thousands of IoT nodes might coexist, TWT helps scale the network by preventing excessive wake-ups and random access behavior. This results in a more organized and manageable communication environment.
+
+Support for Scheduled Communication:
+------------------------------------
+Many IoT devices operate on fixed reporting schedules. TWT aligns well with such patterns, enabling optimized periodic communication. For instance, a smart thermostat can wake up every 10 minutes to send a temperature reading and then go back to sleep, minimizing energy usage.

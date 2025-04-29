@@ -1,0 +1,24 @@
+Question-5:
+
+Compare and contrast Wi-Fi 6 and Wi-Fi 6E in terms of range, bandwidth, and interference.
+
+
+While both Wi-Fi 6 and Wi-Fi 6E are based on the 802.11ax standard, their operational bands and use cases differ significantly.
+
+Range:
+------
+Wi-Fi 6: Operates in both 2.4 GHz and 5 GHz bands. The 2.4 GHz band offers longer range and better wall penetration, making it suitable for broader coverage in homes and offices.
+
+Wi-Fi 6E: Uses the higher 6 GHz band, which has shorter range and limited wall penetration due to its higher frequency. It's best suited for open environments or line-of-sight deployments.
+
+Bandwidth:
+----------
+Wi-Fi 6: Limited by the existing spectrum, offering fewer wide channels. 160 MHz channels are rare due to channel overlap and regulatory constraints.
+
+Wi-Fi 6E: Provides access to a wide spectrum, allowing multiple 160 MHz or 320 MHz (in future standards) channels, resulting in significantly higher data throughput.
+
+Interference:
+-------------
+Wi-Fi 6: Shares spectrum with older Wi-Fi devices and various household devices (e.g., microwaves, Bluetooth), leading to potential congestion.
+
+Wi-Fi 6E: Dedicated to newer devices only, ensuring cleaner airwaves and minimal legacy interference, which improves performance and reliability.
