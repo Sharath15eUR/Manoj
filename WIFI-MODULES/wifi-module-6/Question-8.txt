@@ -1,0 +1,41 @@
+Question-8
+----------
+
+What will happen if we put a wrong passphrase during a 4-Way Handshake?
+
+	->When a client (supplicant) tries to connect to a WPA2-Personal (PSK-based) Wi-Fi network, both the client and access point must derive identical cryptographic keys from a shared passphrase.
+	->If the passphrase is incorrect, the process breaks at the cryptographic verification step.
+
+
+Step-by-Step Breakdown of What Fails:
+---------------------------------
+	->Incorrect PMK Derivation
+
+	->The client derives the Pairwise Master Key (PMK) from the passphrase and the SSID using the PBKDF2-SHA1 function.
+
+	->If the passphrase is wrong, the output PMK will be wrong.
+
+	->PTK Mismatch
+
+	->During the 4-Way Handshake, the client and AP use the PMK, nonces (ANonce and SNonce), and MAC addresses to derive the Pairwise Transient Key (PTK).
+
+	->Since the client has a wrong PMK, it computes a wrong PTK.
+
+	->MIC Verification Fails
+
+	->The client sends Message 2 of the handshake with a MIC (Message Integrity Code), calculated using its own (wrong) PTK.
+
+	->The AP, using the correct PTK derived from its correct PMK, validates the MIC.
+
+	->The MIC fails verification because the keys are different.
+
+	->This breaks the handshake.
+
+	->Handshake Aborts
+
+	->As a result, the AP discards the handshake and does not proceed to Message 3.
+
+	->The client may retry several times.
+
+	->After multiple failed attempts, the connection attempt is rejected.
+

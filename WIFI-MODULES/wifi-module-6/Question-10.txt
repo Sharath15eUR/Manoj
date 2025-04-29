@@ -1,0 +1,46 @@
+Question-10
+-----------
+
+How does 802.1X enhance security over wireless networks?
+
+02.1X boosts wireless security well beyond WPA2-PSK:
+---------------------------------------------------
+
+Key Security Enhancements:
+------------------------
+Per-User Credentials:
+
+	->Each user logs in with unique credentials (e.g., username/password or certificates).
+
+	->Eliminates shared secrets that are easily leaked.
+
+Dynamic Encryption Keys:
+
+	->PMKs are dynamically generated for each session.
+
+	->Prevents key reuse across users or sessions.
+
+Mutual Authentication:
+
+	->EAP methods like EAP-TLS verify both the user and the authentication server using digital certificates.
+
+	->Prevents rogue APs (Evil Twin attacks).
+
+Certificate-Based Security:
+
+	->In EAP-TLS, clients and servers must present valid certificates.
+
+	->Nearly impossible to spoof.
+
+RADIUS Integration for Policy Enforcement:
+
+	->Access permissions can be customized per user/device.
+
+	->Example: Block IoT devices from accessing internal resources.
+
+Access Logs and Monitoring:
+
+	->Every authentication event is logged.
+
+	->Makes it easier to track who connected, when, and from where.
+

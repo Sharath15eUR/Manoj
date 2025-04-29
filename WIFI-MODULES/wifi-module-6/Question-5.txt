@@ -1,0 +1,28 @@
+Question-5
+----------
+
+Why was WPA2 introduced?
+
+	->WPA2 was introduced to address weaknesses in the previous Wi-Fi security standard, WPA, and improve the security of wireless networks.
+	->It offers stronger encryption using the Advanced Encryption Standard (AES) and more robust authentication methods compared to WPA.
+	->This resulted in a more secure protocol that was widely adopted as the industry standard for Wi-Fi security. 
+	->WPA2 was created to be better, faster, and more robust than the original WPA. While WPA still utilises TKIP, it also uses the AES (Advanced Encryption Standard) algorithm, a more complex encryption protocol.
+
+Key reasons for introducing WPA2:
+--------------------------------
+
+Enhanced Security:
+------------------
+	->WPA2 uses AES, a more robust encryption algorithm than the TKIP used by WPA, and offers better protection against attacks. 
+
+Improved Authentication:
+-----------------------
+	->WPA2 provides stronger authentication methods, particularly in the Enterprise mode, which uses an Extensible Authentication Protocol (EAP) server for secure user authentication. 
+
+Addresses WPA Vulnerabilities:
+------------------------------
+	->WPA2 was designed to mitigate the weaknesses of the previous protocol, making it less susceptible to attacks. 
+
+Wide Adoption and Standardization:
+----------------------------------
+	->WPA2 has become the industry standard for Wi-Fi security, ensuring compatibility across a wide range of devices and platforms. 

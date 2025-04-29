@@ -1,0 +1,36 @@
+Question-3
+----------
+
+Explain the differences between WEP, WPA, WPA2, and WPA3.
+
+	->WEP, WPA, WPA2, and WPA3 are Wi-Fi security protocols that prevent unauthorized access and eavesdropping on wireless networks.
+	->They protect your data sent over a Wi-Fi network by encrypting it so that intruders can’t read it.
+
+There are four main types of wireless security protocols:
+--------------------------------------------------------
+
+Wired Equivalent Privacy (WEP):
+	->Introduced in 1997, WEP was the first encryption scheme used to secure wireless networks.
+	->However, it has significant security weaknesses and is now considered outdated and unsecured.
+	->WEP is the oldest and least secure protocol.
+	->It uses a static key for encryption, making it vulnerable to cracking.
+	
+Wi-Fi Protected Access (WPA):
+	->Implemented in 2003, WPA improved upon WEP by introducing Temporal Key Integrity Protocol (TKIP) which dynamically changes the encryption key to prevent decryption.
+	->It also introduced a message-integrity check function to prevent data tampering.
+	->WPA was introduced to address the vulnerabilities of WEP.
+	->It uses a dynamic key for encryption, improving security.
+
+Wi-Fi Protected Access 2 (WPA2):
+	->WPA2, introduced in 2004, is an upgrade from WPA and is currently the most commonly used protocol.
+	->It replaces TKIP with the more secure Advanced Encryption Standard (AES) and introduces Counter Mode with Cipher Block Chaining Message Authentication Code Protocol (CCMP) for additional security.
+	->WPA2 is the next evolution in Wi-Fi security, offering stronger encryption. 
+	->It primarily uses AES (Advanced Encryption Standard) encryption. 
+
+Wi-Fi Protected Access 3 (WPA3):
+	->Released in 2018, WPA3 is the newest and most secure protocol to date.
+	->It provides stronger protections against brute-force password-guessing attacks and enhances encryption through a feature called “forward secrecy” which protects data even if the password is later compromised.
+	->It builds on WPA2 by incorporating stronger encryption and authentication methods. 
+	->WPA3 uses AES in Galois/Counter Mode (GCM) for encryption, offering more robust security. 
+
+To ensure Wi-Fi security, use WPA2/3 for the best protection. Both WEP and WPA are susceptible to attacks that can compromise the network and impact wireless performance.

@@ -1,0 +1,32 @@
+Question-2
+----------
+
+Explain the difference between authentication and encryption in Wi-Fi security.
+
+	->In Wi-Fi security, authentication verifies the identity of users and devices attempting to connect to the network, while encryption protects the data transmitted between the network and devices.
+	->Authentication ensures that only authorized users gain access, while encryption keeps the data exchanged between them private.
+	->Encryption and authentication are two distinct concepts in cybersecurity, but they can be complementary and used together for enhanced security.
+
+Encryption:
+-----------
+
+	->Encryption is the process of converting data into a format that cannot be easily understood by unauthorized users.
+
+	->It involves using algorithms to scramble plaintext data into ciphertext, which requires a decryption key to be reverted to its original form.
+
+	->The primary goal of encryption is to protect the confidentiality and integrity of data, ensuring that only authorized parties can access and understand it.
+
+	->Encryption is commonly used to secure data during storage (data-at-rest) and transmission (data-in-transit), such as encrypting files, emails, and network traffic.
+
+Authentication:
+--------------
+
+	->Authentication is the process of verifying the identity of a user, device, or system attempting to access a resource or service.
+
+	->It confirms that the entity claiming to be a particular identity is indeed who or what it claims to be.
+
+	->Authentication mechanisms typically involve providing credentials 
+		(e.g., usernames, passwords, biometric data, security tokens) 
+
+	->The primary goal of authentication is to ensure that only authorized users or entities gain access to resources, preventing unauthorized access.
+

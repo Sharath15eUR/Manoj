@@ -1,0 +1,52 @@
+Question-1
+----------
+
+What are the pillars of Wi-Fi security?
+
+The three pillars of Wi-Fi Security:
+----------------------------------
+The security of a Wi-Fi network is measured by a combination of three factors:
+
+	->The authentication method, which prevents unauthorised access to the network.
+	->The encryption algorithm, which protects wirelessly transmitted data from eavesdropping, ensuring that only the sender and receiver can read it.
+	->The message integrity algorithm which provides proof against tampering, so authorised messages are not changed over the air by malicious actors.
+
+	->When a client device connects to an access point, several key values are negotiated during the initial handshake to ensure a secure Wi-Fi connection. 
+	->The specific process used for negotiation and exchange of these key values depends on the algorithm specified by the Wi-Fi security grade (WPA, WPA2, WPA3) or Wi-Fi authentication mode (OPEN, Personal, Enterprise) available to both parties.
+	->These key values are then used to facilitate authentication, encryption, and message integrity between the Wi-Fi client and the access point.
+	->Authentication provides access control. The identity of users are verified before granting them access to secure networks, establishing which endpoints or users are and aren't permitted on a Wi-Fi network.
+	
+
+1. Authentication
+--------------
+Purpose: To verify the identity of devices and users attempting to connect to the network.
+
+Methods:
+
+	->Pre-Shared Key (PSK): Used in home networks; users enter a common password.
+
+	->802.1X / RADIUS: Used in enterprise environments; users authenticate with unique credentials via a centralized authentication server.
+
+	->Device-based Authentication: Certificates or MAC filtering in controlled environments.
+
+2. Integrity:
+----------
+purpose: To ensure that the received data is same the sender sent
+
+	->In WiFi security, integrity refers to ensuring the data transmitted over the network remains unaltered and trustworthy. 
+
+	->This means that the data cannot be modified, corrupted, or tampered with during transmission without detection. 
+
+	->It's a crucial aspect of security, alongside confidentiality and availability, forming the CIA triad
+
+3. Encryption
+----------
+Purpose: To ensure data confidentiality by scrambling transmitted information so only authorized parties can understand it.
+
+Standards:
+
+	->WPA2 (AES): Uses Advanced Encryption Standard for secure communication.
+
+	->WPA3: Introduces stronger encryption methods like Simultaneous Authentication of Equals (SAE).
+
+	->End-to-End Encryption (E2EE): In some applications, encrypts data from sender to receiver beyond the Wi-Fi layer.

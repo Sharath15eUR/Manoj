@@ -1,0 +1,37 @@
+Question-9
+----------
+
+What problem does 802.1X solve in a network?
+
+	->802.1X addresses unauthorized access to LANs and WLANs by implementing port-based network access control.
+	->It ensures only authenticated users/devices can connect, granting access based on authentication and policies, and enabling centralized management with RADIUS servers.
+	->This prevents the reliance on weaker security like shared passwords (WPA2-PSK).
+	->By verifying user identity and enforcing policies, 802.1X helps prevent unauthorized access and allows for segmentation of users into different VLANs or access levels after authentication. 
+
+Key Problems Solved by 802.1X:
+----------------------------
+
+Identity Verification:
+	->802.1X verifies the identity of users or devices attempting to connect to the network, ensuring only authorized entities gain access. 
+
+Dynamic Access Control:
+	->Access is granted or denied dynamically based on the authenticated identity and defined policies, rather than static access rules. 
+
+Centralized Management:
+	->RADIUS servers are used to verify user credentials and enforce access policies, providing a centralized point of control. 
+
+Guest/User Segmentation:
+	->After authentication, users can be segmented into different VLANs or access levels, allowing for tailored network access based on their role. 
+
+Why 802.1X is Important:
+-----------------------
+Enhanced Security:
+	->802.1X strengthens network security by preventing unauthorized access and allowing for granular control over network resources. 
+
+Prevention of "Hardware Addition" Attacks:
+	->802.1X directly addresses the vulnerability of "Hardware Addition" attacks, where attackers could connect devices to the network without proper authentication. 
+
+Compliance:
+	->Many organizations require 802.1X for compliance with security standards and regulations. 
+
+By implementing 802.1X, organizations can significantly improve their network security and control access to sensitive resources, reducing the risk of unauthorized access and data breaches. 
