@@ -1,0 +1,58 @@
+Question-3:
+===========
+
+
+Child process - fork():
+-----------------------
+
+-> The fork() system call creates a new process that is a copy of the parent process. 
+
+-> The child process inherits the parent's memory space, file descriptors, and other attributes.
+
+-> It's a fundamental mechanism for creating new processes in Unix-like systems.
+
+SYNTAX:
+=======
+	pid_t pid = fork();
+
+	If fork() returns 0, you are in the child process.
+
+	If fork() returns > 0, it returns the PID of the child to the parent.
+
+	If fork() returns < 0, the creation of the child failed.
+
+Handling common signals:
+------------------------
+
+-> Signals are a form of inter-process communication in Unix-like systems, used to notify a process of an event. 
+
+-> Common signals include SIGINT (interrupt), SIGTERM (terminate), and SIGKILL (kill). 
+
+-> Proper handling of signals is crucial for robust application behavior.
+
+	SIGINT 			Interrupt from keyboard (Ctrl+ C) 
+	SIGKILL 		Force kill (non-catchable)   
+	SIGTERM 		Termination request    
+	SIGSEGV 		Segmentation fault              
+
+
+Exploring different Kernel crashes:
+-----------------------------------
+
+-> Kernel crashes, also known as kernel panics, occur when the operating system kernel encounters a fatal error and cannot continue execution. 
+
+-> Exploring different types of kernel crashes helps in understanding system stability and debugging.
+
+Time complexity:
+-----------------
+
+-> Time complexity is a measure of how the execution time of an algorithm grows as the input size increases. 
+
+-> It's a critical concept in algorithm analysis and design, allowing developers to choose efficient algorithms for specific tasks.
+
+Locking mechanism - mutex/spinlock:
+-----------------------------------
+
+-> Locking mechanisms are used to synchronize access to shared resources in multi-threaded or multi-process environments. 
+
+-> Mutexes (mutual exclusion locks) and spinlocks are common types of locks that prevent race conditions and ensure data consistency.
