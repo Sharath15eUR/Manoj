@@ -1,0 +1,87 @@
+Question-1:
+===========
+Write a C program that represents a calendar for a week. Each day has:
+
+dayName (e.g., "Monday")
+tasks (array of strings with maximum 3 tasks per day)
+
+Note:
+
+1. Define appropriate structures.
+2. Allow the user to input tasks for any day.
+3. Display all tasks grouped by the day.
+
+
+PROGRAM CODE:
+=============
+
+#include <stdio.h>
+#include <string.h>
+
+#define MAX_TASKS 3
+#define DAYS_IN_WEEK 7
+
+typedef struct {
+    char dayName[10];
+    char tasks[MAX_TASKS][100];
+    int taskCount;
+} Day;
+
+void inputTasks(Day week[]) {
+    char dayInput[10];
+    int i, j, found = 0;
+
+    printf("Enter the day to add tasks (e.g., Monday): ");
+    scanf("%s", dayInput);
+
+    for (i = 0; i < DAYS_IN_WEEK; i++) {
+        if (strcmp(week[i].dayName, dayInput) == 0) {
+            found = 1;
+            printf("Enter number of tasks (max 3): ");
+            scanf("%d", &week[i].taskCount);
+            getchar();  // consume newline
+            for (j = 0; j < week[i].taskCount; j++) {
+                printf("Enter task %d: ", j + 1);
+                fgets(week[i].tasks[j], sizeof(week[i].tasks[j]), stdin);
+                week[i].tasks[j][strcspn(week[i].tasks[j], "\n")] = '\0';  
+            }
+            break;
+        }
+    }
+
+    if (!found) {
+        printf("Invalid day entered!\n");
+    }
+}
+
+void displayTasks(Day week[]) {
+    printf("\n--- Weekly Tasks ---\n");
+    for (int i = 0; i < DAYS_IN_WEEK; i++) {
+        printf("%s:\n", week[i].dayName);
+        for (int j = 0; j < week[i].taskCount; j++) {
+            printf("  - %s\n", week[i].tasks[j]);
+        }
+    }
+}
+
+int main() {
+    Day week[DAYS_IN_WEEK] = {
+        {"Monday", {}, 0}, {"Tuesday", {}, 0}, {"Wednesday", {}, 0},
+        {"Thursday", {}, 0}, {"Friday", {}, 0}, {"Saturday", {}, 0}, {"Sunday", {}, 0}
+    };
+
+    int choice;
+    do {
+        printf("\n1. Input Tasks\n2. Display Tasks\n3. Exit\nEnter your choice: ");
+        scanf("%d", &choice);
+
+        switch (choice) {
+            case 1: inputTasks(week); break;
+            case 2: displayTasks(week); break;
+            case 3: printf("Exiting...\n"); break;
+            default: printf("Invalid choice!\n");
+        }
+    } while (choice != 3);
+
+    return 0;
+}
